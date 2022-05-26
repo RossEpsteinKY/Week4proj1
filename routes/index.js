@@ -13,6 +13,10 @@ module.exports = function(app) {
         res.render('pages/element');
     });
 
+    app.get('/testing',function (req,res) {
+        console.log('banana')
+    })
+
     
     
 };
